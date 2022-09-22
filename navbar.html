@@ -33,46 +33,16 @@
             
         }
 
-        #SubNav>div{
+        #SubNav a{
             border: 0px solid red;
             display: flex;
             align-items: center;
             justify-content: center;
+            color: white;
+            text-decoration: none;
         }
 
-        #Signup{
-            width: 30%;
-            border: 1px solid red;
-            margin:auto;
-            margin-top: 40px;
-            text-align: center;
-            padding: 20px;
-            background-color: rgb(30, 216, 201);
-            color:grey ;
-        }
-
-        input[type="text"]{
-            width: 100%;
-            padding: 12px;
-            border: 1px solid #ccc;
-            border-radius: 4px;
-            box-sizing: border-box;
-            margin-top: 6px;
-            margin-bottom: 16px;
-            resize: vertical;
-        }
-
-        button{
-            width: 100%;
-            padding: 12px;
-            border: 1px solid #ccc;
-            border-radius: 4px;
-            box-sizing: border-box;
-            margin-top: 6px;
-            margin-bottom: 16px;
-            resize: vertical;
-            /* background-color: rgba(30, 216, 200, 0.925); */
-        }
+        
 
 
     </style>
@@ -81,19 +51,12 @@
     <div id="Navbar">
         <div>Rebook</div>
         <div id="SubNav">
-            <div>Men</div>
-            <div>Women</div>
-            <div>Login</div>
-            <div>Signup</div>
+            <a href="">Men</a>
+            <a href="">Women</a>
+            <a href="">Login</a>
+            <a href="Signin.html">Signup</a>
         </div>
     </div>
-    <div id="Signup">
-        <p>-Visitor-</p>
-        <input type="text" placeholder="Full Name"><br>
-        <input type="text" placeholder="Email"><br>
-        <input type="text" placeholder="Organization"><br>
-        <button>Sign up</button><br>
-        <button>Return</button>
-    </div>
+    
 </body>
 </html>
