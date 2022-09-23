@@ -5,8 +5,57 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <style>
+        body{
+            margin: 5px;
+            padding: 5px;
+            margin-right: 20px;
+        }
+
+        #Navbar{
+            width: 100%;
+            display: flex;
+            justify-content: space-between;
+            border: 1px solid blue;
+            padding: 15px;
+            border-radius: 20px;
+            background-color: hsl(212, 34%, 16%);
+            color: white;
+        }
+
+        #SubNav{
+            width: 40%;
+            display: grid;
+            grid-template-columns: repeat(4,1fr);
+            gap: 10px;
+            padding-right: 20px;
+            
+        }
+
+        #SubNav a{
+            border: 0px solid red;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            color: white;
+            text-decoration: none;
+        }
+
+        
+
+
+    </style>
 </head>
 <body>
+    <div id="Navbar">
+        <div>Rebook</div>
+        <div id="SubNav">
+            <a href="mens.html">Men</a>
+            <a href="">Women</a>
+            <a href="login.html">Login</a>
+            <a href="signup.html">Signup</a>
+        </div>
+    </div>
     
 </body>
 </html>
